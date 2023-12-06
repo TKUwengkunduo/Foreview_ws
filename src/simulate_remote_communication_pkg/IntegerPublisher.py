@@ -6,7 +6,7 @@ import time
 class IntegerPublisher(Node):
     def __init__(self):
         super().__init__('integer_publisher')
-        self.publisher_ = self.create_publisher(Int32, 'topic_name', 10)  # 修改为您的topic名称
+        self.publisher_ = self.create_publisher(Int32, 'rough_angle', 10)
         self.timer = self.create_timer(1.0, self.timer_callback)
         self.count = 1
 

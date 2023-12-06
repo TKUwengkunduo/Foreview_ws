@@ -1,0 +1,6 @@
+[submodule "src/dynamixel_controller_pkg"]
+	path = src/dynamixel_controller_pkg
+	url = https://github.com/TKUwengkunduo/dynamixel_controller_pkg.git
+[submodule "src/remote_controller_pkg"]
+	path = src/remote_controller_pkg
+	url = https://github.com/TKUwengkunduo/remote_controller_pkg.git

@@ -1,0 +1,223 @@
+[0.459s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.460s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9bfcb400>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9bfcb400>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9bf7a820>)
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.531s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orin/work/Foreview_ws/src'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_controller_pkg) by extension 'ros'
+[0.559s] DEBUG:colcon.colcon_core.package_identification:Package 'dynamixel_controller_pkg' with type 'ros.ament_cmake' and name 'dynamixel_controller_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extension 'ignore_ament_install'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(remote_controller_pkg) by extension 'ros'
+[0.561s] DEBUG:colcon.colcon_core.package_identification:Package 'remote_controller_pkg' with type 'ros.ament_cmake' and name 'remote_controller_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'cmake_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'cmake_target' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_controller_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.604s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_controller_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg', 'merge_install': False, 'path': '/home/orin/work/Foreview_ws/src/dynamixel_controller_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'cmake_target' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'remote_controller_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'remote_controller_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg', 'merge_install': False, 'path': '/home/orin/work/Foreview_ws/src/remote_controller_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.609s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.618s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.619s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin/work/Foreview_ws/src/dynamixel_controller_pkg' with build type 'ament_cmake'
+[0.619s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin/work/Foreview_ws/src/dynamixel_controller_pkg'
+[0.627s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin/work/Foreview_ws/src/remote_controller_pkg' with build type 'ament_cmake'
+[0.650s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin/work/Foreview_ws/src/remote_controller_pkg'
+[0.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.656s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg': /usr/local/bin/cmake /home/orin/work/Foreview_ws/src/dynamixel_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg
+[0.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg': /usr/local/bin/cmake /home/orin/work/Foreview_ws/src/remote_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/src/install/remote_controller_pkg
+[8.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg' returned '0': /usr/local/bin/cmake /home/orin/work/Foreview_ws/src/dynamixel_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg
+[8.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg -- -j12 -l12
+[8.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg' returned '0': /usr/local/bin/cmake /home/orin/work/Foreview_ws/src/remote_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/src/install/remote_controller_pkg
+[8.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/src/build/remote_controller_pkg -- -j12 -l12
+[11.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg' returned '0': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg -- -j12 -l12
+[11.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg' returned '0': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/src/build/remote_controller_pkg -- -j12 -l12
+[11.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg
+[11.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/src/build/remote_controller_pkg
+[11.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_controller_pkg)
+[11.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg' returned '0': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg
+[11.841s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg' for CMake module files
+[11.843s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg' for CMake config files
+[11.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_controller_pkg', 'cmake_prefix_path')
+[11.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/cmake_prefix_path.ps1'
+[11.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/cmake_prefix_path.dsv'
+[11.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/cmake_prefix_path.sh'
+[11.856s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib'
+[11.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_controller_pkg', 'ld_library_path_lib')
+[11.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/ld_library_path_lib.ps1'
+[11.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/ld_library_path_lib.dsv'
+[11.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/ld_library_path_lib.sh'
+[11.864s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/bin'
+[11.864s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/pkgconfig/dynamixel_controller_pkg.pc'
+[11.866s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages'
+[11.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_controller_pkg', 'pythonpath')
+[11.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/pythonpath.ps1'
+[11.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/pythonpath.dsv'
+[11.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/pythonpath.sh'
+[11.873s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/bin'
+[11.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.ps1'
+[11.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.dsv'
+[11.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.sh'
+[11.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.bash'
+[11.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.zsh'
+[11.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/colcon-core/packages/dynamixel_controller_pkg)
+[11.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(remote_controller_pkg)
+[11.901s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg' for CMake module files
+[11.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg' returned '0': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/src/build/remote_controller_pkg
+[11.902s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg' for CMake config files
+[11.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_controller_pkg', 'cmake_prefix_path')
+[11.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/cmake_prefix_path.ps1'
+[11.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/cmake_prefix_path.dsv'
+[11.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/cmake_prefix_path.sh'
+[11.909s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib'
+[11.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_controller_pkg', 'ld_library_path_lib')
+[11.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/ld_library_path_lib.ps1'
+[11.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/ld_library_path_lib.dsv'
+[11.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/ld_library_path_lib.sh'
+[11.914s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/bin'
+[11.914s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/pkgconfig/remote_controller_pkg.pc'
+[11.915s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages'
+[11.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_controller_pkg', 'pythonpath')
+[11.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/pythonpath.ps1'
+[11.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/pythonpath.dsv'
+[11.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/pythonpath.sh'
+[11.920s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/bin'
+[11.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.ps1'
+[11.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.dsv'
+[11.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.sh'
+[11.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.bash'
+[11.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.zsh'
+[11.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/colcon-core/packages/remote_controller_pkg)
+[12.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_controller_pkg)
+[12.012s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg' for CMake module files
+[12.014s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg' for CMake config files
+[12.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_controller_pkg', 'cmake_prefix_path')
+[12.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/cmake_prefix_path.ps1'
+[12.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/cmake_prefix_path.dsv'
+[12.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/cmake_prefix_path.sh'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib'
+[12.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_controller_pkg', 'ld_library_path_lib')
+[12.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/ld_library_path_lib.ps1'
+[12.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/ld_library_path_lib.dsv'
+[12.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/ld_library_path_lib.sh'
+[12.027s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/bin'
+[12.027s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/pkgconfig/dynamixel_controller_pkg.pc'
+[12.028s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages'
+[12.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_controller_pkg', 'pythonpath')
+[12.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/pythonpath.ps1'
+[12.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/pythonpath.dsv'
+[12.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/hook/pythonpath.sh'
+[12.033s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/bin'
+[12.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.ps1'
+[12.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.dsv'
+[12.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.sh'
+[12.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.bash'
+[12.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.zsh'
+[12.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/colcon-core/packages/dynamixel_controller_pkg)
+[12.052s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(remote_controller_pkg)
+[12.058s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg' for CMake module files
+[12.059s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg' for CMake config files
+[12.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_controller_pkg', 'cmake_prefix_path')
+[12.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/cmake_prefix_path.ps1'
+[12.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/cmake_prefix_path.dsv'
+[12.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/cmake_prefix_path.sh'
+[12.065s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib'
+[12.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_controller_pkg', 'ld_library_path_lib')
+[12.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/ld_library_path_lib.ps1'
+[12.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/ld_library_path_lib.dsv'
+[12.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/ld_library_path_lib.sh'
+[12.071s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/bin'
+[12.071s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/pkgconfig/remote_controller_pkg.pc'
+[12.071s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages'
+[12.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_controller_pkg', 'pythonpath')
+[12.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/pythonpath.ps1'
+[12.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/pythonpath.dsv'
+[12.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/hook/pythonpath.sh'
+[12.077s] Level 1:colcon.colcon_core.environment:checking '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/bin'
+[12.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.ps1'
+[12.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.dsv'
+[12.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.sh'
+[12.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.bash'
+[12.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.zsh'
+[12.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/colcon-core/packages/remote_controller_pkg)
+[12.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.086s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.095s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.123s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.127s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin/work/Foreview_ws/src/install/local_setup.ps1'
+[12.129s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin/work/Foreview_ws/src/install/_local_setup_util_ps1.py'
+[12.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin/work/Foreview_ws/src/install/setup.ps1'
+[12.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin/work/Foreview_ws/src/install/local_setup.sh'
+[12.134s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin/work/Foreview_ws/src/install/_local_setup_util_sh.py'
+[12.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin/work/Foreview_ws/src/install/setup.sh'
+[12.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin/work/Foreview_ws/src/install/local_setup.bash'
+[12.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin/work/Foreview_ws/src/install/setup.bash'
+[12.141s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin/work/Foreview_ws/src/install/local_setup.zsh'
+[12.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin/work/Foreview_ws/src/install/setup.zsh'

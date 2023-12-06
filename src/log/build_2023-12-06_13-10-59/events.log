@@ -1,0 +1,660 @@
+[0.000000] (-) TimerEvent: {}
+[0.000677] (dynamixel_controller_pkg) JobQueued: {'identifier': 'dynamixel_controller_pkg', 'dependencies': OrderedDict()}
+[0.000906] (remote_controller_pkg) JobQueued: {'identifier': 'remote_controller_pkg', 'dependencies': OrderedDict()}
+[0.001325] (dynamixel_controller_pkg) JobStarted: {'identifier': 'dynamixel_controller_pkg'}
+[0.032077] (remote_controller_pkg) JobStarted: {'identifier': 'remote_controller_pkg'}
+[0.058468] (dynamixel_controller_pkg) JobProgress: {'identifier': 'dynamixel_controller_pkg', 'progress': 'cmake'}
+[0.059128] (dynamixel_controller_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '/home/orin/work/Foreview_ws/src/dynamixel_controller_pkg', '-DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg'], 'cwd': '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/work/Foreview_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/orin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b6f457f-4ad7-470f-9d81-5479bd91f4b6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[0.071546] (remote_controller_pkg) JobProgress: {'identifier': 'remote_controller_pkg', 'progress': 'cmake'}
+[0.071929] (remote_controller_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '/home/orin/work/Foreview_ws/src/remote_controller_pkg', '-DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/src/install/remote_controller_pkg'], 'cwd': '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/work/Foreview_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/orin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b6f457f-4ad7-470f-9d81-5479bd91f4b6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[0.099064] (-) TimerEvent: {}
+[0.183366] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.184826] (remote_controller_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199142] (-) TimerEvent: {}
+[0.274332] (remote_controller_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.276457] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.299307] (-) TimerEvent: {}
+[0.312207] (remote_controller_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.312834] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399482] (-) TimerEvent: {}
+[0.428730] (remote_controller_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.429217] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.448725] (remote_controller_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.449364] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.449587] (remote_controller_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.449827] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.450101] (remote_controller_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.450601] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.473112] (remote_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.473633] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499623] (-) TimerEvent: {}
+[0.598989] (remote_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.599702] (-) TimerEvent: {}
+[0.600114] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.618672] (remote_controller_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.619314] (remote_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.620221] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.620624] (remote_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.620965] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.621952] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.627629] (remote_controller_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[0.628639] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[0.699865] (-) TimerEvent: {}
+[0.800435] (-) TimerEvent: {}
+[0.901001] (-) TimerEvent: {}
+[1.001560] (-) TimerEvent: {}
+[1.102136] (-) TimerEvent: {}
+[1.203046] (-) TimerEvent: {}
+[1.303748] (-) TimerEvent: {}
+[1.404272] (-) TimerEvent: {}
+[1.504799] (-) TimerEvent: {}
+[1.605407] (-) TimerEvent: {}
+[1.706134] (-) TimerEvent: {}
+[1.806704] (-) TimerEvent: {}
+[1.907477] (-) TimerEvent: {}
+[2.008287] (-) TimerEvent: {}
+[2.109259] (-) TimerEvent: {}
+[2.210087] (-) TimerEvent: {}
+[2.310841] (-) TimerEvent: {}
+[2.411377] (-) TimerEvent: {}
+[2.424613] (remote_controller_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[2.425897] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[2.511539] (-) TimerEvent: {}
+[2.582475] (remote_controller_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)\n'}
+[2.582976] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)\n'}
+[2.611705] (-) TimerEvent: {}
+[2.659192] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[2.659668] (remote_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[2.668473] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[2.669004] (remote_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[2.684542] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[2.685033] (remote_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[2.711142] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.711456] (remote_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.711740] (-) TimerEvent: {}
+[2.748412] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.748758] (remote_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.811855] (-) TimerEvent: {}
+[2.912305] (-) TimerEvent: {}
+[2.958335] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[2.958781] (remote_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[3.012451] (-) TimerEvent: {}
+[3.113040] (-) TimerEvent: {}
+[3.213691] (-) TimerEvent: {}
+[3.314272] (-) TimerEvent: {}
+[3.414889] (-) TimerEvent: {}
+[3.515398] (-) TimerEvent: {}
+[3.615945] (-) TimerEvent: {}
+[3.716553] (-) TimerEvent: {}
+[3.817050] (-) TimerEvent: {}
+[3.917566] (-) TimerEvent: {}
+[4.018089] (-) TimerEvent: {}
+[4.062755] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[4.069288] (remote_controller_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[4.118207] (-) TimerEvent: {}
+[4.218878] (-) TimerEvent: {}
+[4.319429] (-) TimerEvent: {}
+[4.419914] (-) TimerEvent: {}
+[4.520699] (-) TimerEvent: {}
+[4.621428] (-) TimerEvent: {}
+[4.722022] (-) TimerEvent: {}
+[4.822572] (-) TimerEvent: {}
+[4.923317] (-) TimerEvent: {}
+[5.024377] (-) TimerEvent: {}
+[5.125158] (-) TimerEvent: {}
+[5.225737] (-) TimerEvent: {}
+[5.326248] (-) TimerEvent: {}
+[5.426814] (-) TimerEvent: {}
+[5.527554] (-) TimerEvent: {}
+[5.628158] (-) TimerEvent: {}
+[5.728871] (-) TimerEvent: {}
+[5.829606] (-) TimerEvent: {}
+[5.930245] (-) TimerEvent: {}
+[6.031166] (-) TimerEvent: {}
+[6.131703] (-) TimerEvent: {}
+[6.232198] (-) TimerEvent: {}
+[6.332692] (-) TimerEvent: {}
+[6.405198] (remote_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.405934] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.432786] (-) TimerEvent: {}
+[6.533313] (-) TimerEvent: {}
+[6.633873] (-) TimerEvent: {}
+[6.734627] (-) TimerEvent: {}
+[6.835262] (-) TimerEvent: {}
+[6.936036] (-) TimerEvent: {}
+[7.036629] (-) TimerEvent: {}
+[7.137178] (-) TimerEvent: {}
+[7.237761] (-) TimerEvent: {}
+[7.338450] (-) TimerEvent: {}
+[7.341029] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.341811] (remote_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.350106] (dynamixel_controller_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[7.350683] (dynamixel_controller_pkg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[7.350902] (dynamixel_controller_pkg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[7.351090] (dynamixel_controller_pkg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[7.351267] (dynamixel_controller_pkg) StderrLine: {'line': b'\n'}
+[7.351435] (dynamixel_controller_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.351602] (dynamixel_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[7.351769] (dynamixel_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[7.351932] (dynamixel_controller_pkg) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[7.352091] (dynamixel_controller_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.352252] (dynamixel_controller_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[7.352409] (remote_controller_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[7.352612] (remote_controller_pkg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[7.352778] (remote_controller_pkg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[7.352938] (remote_controller_pkg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[7.353097] (remote_controller_pkg) StderrLine: {'line': b'\n'}
+[7.353253] (remote_controller_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.353410] (remote_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[7.353568] (remote_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[7.353727] (remote_controller_pkg) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[7.353882] (remote_controller_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.354040] (remote_controller_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[7.391033] (remote_controller_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[7.391759] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[7.400260] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)\n'}
+[7.400578] (remote_controller_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)\n'}
+[7.402162] (remote_controller_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[7.402462] (remote_controller_pkg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[7.402750] (remote_controller_pkg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[7.403022] (remote_controller_pkg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[7.403237] (remote_controller_pkg) StderrLine: {'line': b'\n'}
+[7.403441] (remote_controller_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.403643] (remote_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[7.403849] (remote_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[7.404051] (remote_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[7.404250] (remote_controller_pkg) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[7.404421] (remote_controller_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.404606] (remote_controller_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[7.404775] (dynamixel_controller_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[7.404954] (dynamixel_controller_pkg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[7.405123] (dynamixel_controller_pkg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[7.405286] (dynamixel_controller_pkg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[7.405447] (dynamixel_controller_pkg) StderrLine: {'line': b'\n'}
+[7.405605] (dynamixel_controller_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.405764] (dynamixel_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[7.405926] (dynamixel_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[7.406088] (dynamixel_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[7.406247] (dynamixel_controller_pkg) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[7.406406] (dynamixel_controller_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.406627] (dynamixel_controller_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[7.438523] (-) TimerEvent: {}
+[7.439829] (dynamixel_controller_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[7.440340] (dynamixel_controller_pkg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[7.440876] (dynamixel_controller_pkg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[7.441138] (dynamixel_controller_pkg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[7.441376] (dynamixel_controller_pkg) StderrLine: {'line': b'\n'}
+[7.441603] (dynamixel_controller_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.441823] (dynamixel_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[7.442037] (dynamixel_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[7.442288] (dynamixel_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[7.442525] (dynamixel_controller_pkg) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[7.442790] (dynamixel_controller_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.442999] (dynamixel_controller_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[7.443200] (remote_controller_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[7.443419] (remote_controller_pkg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[7.443617] (remote_controller_pkg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[7.443815] (remote_controller_pkg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[7.444012] (remote_controller_pkg) StderrLine: {'line': b'\n'}
+[7.444206] (remote_controller_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.444400] (remote_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[7.444595] (remote_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[7.444823] (remote_controller_pkg) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[7.445025] (remote_controller_pkg) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[7.445218] (remote_controller_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.445416] (remote_controller_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[7.456668] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.457144] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.457444] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[7.457876] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[7.458263] (remote_controller_pkg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.458559] (remote_controller_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.458827] (remote_controller_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[7.459060] (remote_controller_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[7.493689] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.494111] (remote_controller_pkg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.538623] (-) TimerEvent: {}
+[7.639148] (-) TimerEvent: {}
+[7.739657] (-) TimerEvent: {}
+[7.790140] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Using numpy include directory: /usr/local/lib/python3.8/dist-packages/numpy/core/include\n'}
+[7.806937] (remote_controller_pkg) StdoutLine: {'line': b'-- Using numpy include directory: /usr/local/lib/python3.8/dist-packages/numpy/core/include\n'}
+[7.807439] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[7.825239] (remote_controller_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[7.839742] (-) TimerEvent: {}
+[7.845391] (dynamixel_controller_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.848502] (dynamixel_controller_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.850399] (dynamixel_controller_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.864121] (dynamixel_controller_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.864876] (remote_controller_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.867899] (remote_controller_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.869402] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Configuring done (7.8s)\n'}
+[7.869936] (remote_controller_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.879643] (remote_controller_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.884910] (remote_controller_pkg) StdoutLine: {'line': b'-- Configuring done (7.8s)\n'}
+[7.938268] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.939819] (-) TimerEvent: {}
+[7.943723] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg\n'}
+[7.952261] (remote_controller_pkg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.957211] (remote_controller_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/work/Foreview_ws/src/build/remote_controller_pkg\n'}
+[7.973786] (dynamixel_controller_pkg) CommandEnded: {'returncode': 0}
+[7.974882] (dynamixel_controller_pkg) JobProgress: {'identifier': 'dynamixel_controller_pkg', 'progress': 'build'}
+[7.975990] (dynamixel_controller_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg', '--', '-j12', '-l12'], 'cwd': '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/work/Foreview_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/orin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b6f457f-4ad7-470f-9d81-5479bd91f4b6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[7.990183] (remote_controller_pkg) CommandEnded: {'returncode': 0}
+[7.991058] (remote_controller_pkg) JobProgress: {'identifier': 'remote_controller_pkg', 'progress': 'build'}
+[7.991432] (remote_controller_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg', '--', '-j12', '-l12'], 'cwd': '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/work/Foreview_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/orin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b6f457f-4ad7-470f-9d81-5479bd91f4b6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[8.040005] (-) TimerEvent: {}
+[8.052086] (dynamixel_controller_pkg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.060708] (dynamixel_controller_pkg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.065289] (dynamixel_controller_pkg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_dynamixel_controller_pkg\n'}
+[8.068269] (remote_controller_pkg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.076597] (remote_controller_pkg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.080344] (remote_controller_pkg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_remote_controller_pkg\n'}
+[8.140126] (-) TimerEvent: {}
+[8.240646] (-) TimerEvent: {}
+[8.341190] (-) TimerEvent: {}
+[8.374376] (dynamixel_controller_pkg) StdoutLine: {'line': b'[  6%] Built target dynamixel_controller_pkg__cpp\n'}
+[8.385809] (dynamixel_controller_pkg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.386313] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.386597] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.386734] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_controller_pkg/msg/detail/motor_speeds__functions.c.o\x1b[0m\n'}
+[8.388498] (remote_controller_pkg) StdoutLine: {'line': b'[  6%] Built target remote_controller_pkg__cpp\n'}
+[8.398086] (remote_controller_pkg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.398665] (remote_controller_pkg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.399091] (remote_controller_pkg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.402439] (dynamixel_controller_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.402993] (remote_controller_pkg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/remote_controller_pkg__rosidl_generator_c.dir/rosidl_generator_c/remote_controller_pkg/msg/detail/motor_speeds__functions.c.o\x1b[0m\n'}
+[8.404725] (dynamixel_controller_pkg) StdoutLine: {'line': b'creating dynamixel_controller_pkg.egg-info\n'}
+[8.425658] (remote_controller_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.427741] (remote_controller_pkg) StdoutLine: {'line': b'creating remote_controller_pkg.egg-info\n'}
+[8.436607] (dynamixel_controller_pkg) StdoutLine: {'line': b'writing dynamixel_controller_pkg.egg-info/PKG-INFO\n'}
+[8.437203] (dynamixel_controller_pkg) StdoutLine: {'line': b'writing dependency_links to dynamixel_controller_pkg.egg-info/dependency_links.txt\n'}
+[8.437770] (dynamixel_controller_pkg) StdoutLine: {'line': b'writing top-level names to dynamixel_controller_pkg.egg-info/top_level.txt\n'}
+[8.438098] (dynamixel_controller_pkg) StdoutLine: {'line': b"writing manifest file 'dynamixel_controller_pkg.egg-info/SOURCES.txt'\n"}
+[8.441286] (-) TimerEvent: {}
+[8.458957] (remote_controller_pkg) StdoutLine: {'line': b'writing remote_controller_pkg.egg-info/PKG-INFO\n'}
+[8.459461] (remote_controller_pkg) StdoutLine: {'line': b'writing dependency_links to remote_controller_pkg.egg-info/dependency_links.txt\n'}
+[8.459891] (remote_controller_pkg) StdoutLine: {'line': b'writing top-level names to remote_controller_pkg.egg-info/top_level.txt\n'}
+[8.460240] (remote_controller_pkg) StdoutLine: {'line': b"writing manifest file 'remote_controller_pkg.egg-info/SOURCES.txt'\n"}
+[8.485116] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libdynamixel_controller_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[8.499822] (remote_controller_pkg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libremote_controller_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[8.525585] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 22%] Built target dynamixel_controller_pkg__rosidl_generator_c\n'}
+[8.528838] (dynamixel_controller_pkg) StdoutLine: {'line': b"reading manifest file 'dynamixel_controller_pkg.egg-info/SOURCES.txt'\n"}
+[8.530141] (dynamixel_controller_pkg) StdoutLine: {'line': b"writing manifest file 'dynamixel_controller_pkg.egg-info/SOURCES.txt'\n"}
+[8.537078] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.537538] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.537746] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.541448] (-) TimerEvent: {}
+[8.542111] (remote_controller_pkg) StdoutLine: {'line': b'[ 22%] Built target remote_controller_pkg__rosidl_generator_c\n'}
+[8.551700] (remote_controller_pkg) StdoutLine: {'line': b"reading manifest file 'remote_controller_pkg.egg-info/SOURCES.txt'\n"}
+[8.553219] (remote_controller_pkg) StdoutLine: {'line': b"writing manifest file 'remote_controller_pkg.egg-info/SOURCES.txt'\n"}
+[8.567168] (remote_controller_pkg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.572573] (remote_controller_pkg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.573044] (remote_controller_pkg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.611743] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_dynamixel_controller_pkg_egg\n'}
+[8.641599] (-) TimerEvent: {}
+[8.667067] (remote_controller_pkg) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_remote_controller_pkg_egg\n'}
+[8.709555] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_controller_pkg/msg/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.725935] (remote_controller_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/remote_controller_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/remote_controller_pkg/msg/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.737609] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_controller_pkg/msg/detail/dds_fastrtps/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.741752] (-) TimerEvent: {}
+[8.745146] (remote_controller_pkg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/remote_controller_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/remote_controller_pkg/msg/detail/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.745618] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.749210] (remote_controller_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/remote_controller_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/remote_controller_pkg/msg/detail/dds_fastrtps/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.841915] (-) TimerEvent: {}
+[8.864955] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_controller_pkg/msg/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.877683] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.c.o\x1b[0m\n'}
+[8.904556] (remote_controller_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/remote_controller_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/remote_controller_pkg/msg/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[8.917485] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support_c.cpp.o\x1b[0m\n'}
+[8.942115] (-) TimerEvent: {}
+[8.950438] (remote_controller_pkg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/remote_controller_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/remote_controller_pkg/msg/detail/motor_speeds__type_support_c.cpp.o\x1b[0m\n'}
+[8.961693] (remote_controller_pkg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/remote_controller_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/remote_controller_pkg/msg/detail/motor_speeds__type_support.c.o\x1b[0m\n'}
+[8.966373] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.017759] (remote_controller_pkg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libremote_controller_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.024970] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libdynamixel_controller_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.036314] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 58%] Built target dynamixel_controller_pkg__rosidl_typesupport_c\n'}
+[9.042232] (-) TimerEvent: {}
+[9.072496] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 58%] Built target dynamixel_controller_pkg__rosidl_typesupport_introspection_c\n'}
+[9.079613] (remote_controller_pkg) StdoutLine: {'line': b'[ 54%] Built target remote_controller_pkg__rosidl_typesupport_c\n'}
+[9.087798] (remote_controller_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libremote_controller_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.127247] (remote_controller_pkg) StdoutLine: {'line': b'[ 58%] Built target remote_controller_pkg__rosidl_typesupport_introspection_c\n'}
+[9.142378] (-) TimerEvent: {}
+[9.243038] (-) TimerEvent: {}
+[9.343698] (-) TimerEvent: {}
+[9.403060] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.429543] (remote_controller_pkg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libremote_controller_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.443876] (-) TimerEvent: {}
+[9.447838] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 61%] Built target dynamixel_controller_pkg__rosidl_typesupport_cpp\n'}
+[9.471706] (remote_controller_pkg) StdoutLine: {'line': b'[ 61%] Built target remote_controller_pkg__rosidl_typesupport_cpp\n'}
+[9.544056] (-) TimerEvent: {}
+[9.644731] (-) TimerEvent: {}
+[9.715433] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.715910] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.716175] (remote_controller_pkg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libremote_controller_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.716314] (remote_controller_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libremote_controller_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.716424] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.733127] (remote_controller_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libremote_controller_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.744867] (-) TimerEvent: {}
+[9.765226] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 70%] Built target dynamixel_controller_pkg__rosidl_typesupport_introspection_cpp\n'}
+[9.767238] (remote_controller_pkg) StdoutLine: {'line': b'[ 70%] Built target remote_controller_pkg__rosidl_typesupport_introspection_cpp\n'}
+[9.836613] (remote_controller_pkg) StdoutLine: {'line': b'[ 70%] Built target remote_controller_pkg__rosidl_typesupport_fastrtps_c\n'}
+[9.839661] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 70%] Built target dynamixel_controller_pkg__rosidl_typesupport_fastrtps_c\n'}
+[9.840905] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 70%] Built target dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[9.844975] (-) TimerEvent: {}
+[9.845511] (remote_controller_pkg) StdoutLine: {'line': b'[ 70%] Built target remote_controller_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[9.856197] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 70%] Built target dynamixel_controller_pkg\n'}
+[9.862796] (remote_controller_pkg) StdoutLine: {'line': b'[ 70%] Built target remote_controller_pkg\n'}
+[9.873958] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.879093] (remote_controller_pkg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.945108] (-) TimerEvent: {}
+[10.045636] (-) TimerEvent: {}
+[10.146183] (-) TimerEvent: {}
+[10.223430] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 74%] Built target dynamixel_controller_pkg__py\n'}
+[10.228210] (remote_controller_pkg) StdoutLine: {'line': b'[ 74%] Built target remote_controller_pkg__py\n'}
+[10.237972] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_controller_pkg/msg/_motor_speeds_s.c.o\x1b[0m\n'}
+[10.242233] (remote_controller_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/remote_controller_pkg__rosidl_generator_py.dir/rosidl_generator_py/remote_controller_pkg/msg/_motor_speeds_s.c.o\x1b[0m\n'}
+[10.246256] (-) TimerEvent: {}
+[10.346787] (-) TimerEvent: {}
+[10.398243] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_controller_pkg/libdynamixel_controller_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[10.401058] (remote_controller_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/remote_controller_pkg/libremote_controller_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[10.445040] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 80%] Built target dynamixel_controller_pkg__rosidl_generator_py\n'}
+[10.445657] (remote_controller_pkg) StdoutLine: {'line': b'[ 80%] Built target remote_controller_pkg__rosidl_generator_py\n'}
+[10.446826] (-) TimerEvent: {}
+[10.463949] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.464392] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.465432] (remote_controller_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/remote_controller_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/remote_controller_pkg/_remote_controller_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.465882] (remote_controller_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/remote_controller_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/remote_controller_pkg/_remote_controller_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.466083] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.466207] (remote_controller_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/remote_controller_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/remote_controller_pkg/_remote_controller_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.547008] (-) TimerEvent: {}
+[10.647603] (-) TimerEvent: {}
+[10.748209] (-) TimerEvent: {}
+[10.793448] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.800038] (dynamixel_controller_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.801021] (remote_controller_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.807359] (remote_controller_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.807883] (remote_controller_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.808107] (dynamixel_controller_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.846812] (dynamixel_controller_pkg) StdoutLine: {'line': b'[100%] Built target dynamixel_controller_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.848261] (-) TimerEvent: {}
+[10.855351] (remote_controller_pkg) StdoutLine: {'line': b'[100%] Built target remote_controller_pkg__rosidl_typesupport_c__pyext\n'}
+[10.855801] (dynamixel_controller_pkg) StdoutLine: {'line': b'[100%] Built target dynamixel_controller_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[10.861257] (remote_controller_pkg) StdoutLine: {'line': b'[100%] Built target remote_controller_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[10.861595] (dynamixel_controller_pkg) StdoutLine: {'line': b'[100%] Built target dynamixel_controller_pkg__rosidl_typesupport_c__pyext\n'}
+[10.861756] (remote_controller_pkg) StdoutLine: {'line': b'[100%] Built target remote_controller_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.879424] (dynamixel_controller_pkg) CommandEnded: {'returncode': 0}
+[10.888094] (remote_controller_pkg) CommandEnded: {'returncode': 0}
+[10.948469] (-) TimerEvent: {}
+[11.006943] (dynamixel_controller_pkg) JobProgress: {'identifier': 'dynamixel_controller_pkg', 'progress': 'install'}
+[11.048620] (-) TimerEvent: {}
+[11.060722] (dynamixel_controller_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg'], 'cwd': '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/work/Foreview_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/orin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b6f457f-4ad7-470f-9d81-5479bd91f4b6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/orin/work/Foreview_ws/src/build/dynamixel_controller_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[11.072093] (remote_controller_pkg) JobProgress: {'identifier': 'remote_controller_pkg', 'progress': 'install'}
+[11.073419] (remote_controller_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg'], 'cwd': '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/work/Foreview_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/orin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b6f457f-4ad7-470f-9d81-5479bd91f4b6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/orin/work/Foreview_ws/src/build/remote_controller_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[11.110838] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.111253] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/ament_index/resource_index/rosidl_interfaces/dynamixel_controller_pkg\n'}
+[11.111462] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg\n'}
+[11.111646] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg\n'}
+[11.111781] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.111974] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail\n'}
+[11.112117] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__functions.h\n'}
+[11.112335] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.h\n'}
+[11.112531] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__functions.c\n'}
+[11.112733] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__struct.h\n'}
+[11.112922] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/motor_speeds.h\n'}
+[11.113287] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/library_path.sh\n'}
+[11.113542] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/library_path.dsv\n'}
+[11.113853] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_generator_c.so\n'}
+[11.114301] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_generator_c.so" to ""\n'}
+[11.114416] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg\n'}
+[11.114564] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg\n'}
+[11.114691] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail\n'}
+[11.114780] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_c.h\n'}
+[11.114915] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.115097] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.115521] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.115634] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg\n'}
+[11.115747] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg\n'}
+[11.115874] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail\n'}
+[11.115979] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__traits.hpp\n'}
+[11.116095] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__struct.hpp\n'}
+[11.116316] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__builder.hpp\n'}
+[11.116527] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/motor_speeds.hpp\n'}
+[11.116744] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg\n'}
+[11.116861] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg\n'}
+[11.116986] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail\n'}
+[11.117074] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/dds_fastrtps\n'}
+[11.117183] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.117291] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.117542] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.117977] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.118088] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg\n'}
+[11.118207] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg\n'}
+[11.118339] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail\n'}
+[11.118428] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_introspection_c.h\n'}
+[11.118551] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.c\n'}
+[11.118739] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.119003] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_introspection_c.so\n'}
+[11.119440] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.119558] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_c.so\n'}
+[11.119968] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_c.so" to ""\n'}
+[11.120082] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg\n'}
+[11.120265] (remote_controller_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.120399] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg\n'}
+[11.120489] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail\n'}
+[11.120620] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.cpp\n'}
+[11.120712] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/ament_index/resource_index/rosidl_interfaces/remote_controller_pkg\n'}
+[11.120803] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.120944] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg\n'}
+[11.121041] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.121149] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg\n'}
+[11.121276] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.121435] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.121631] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail\n'}
+[11.121758] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_cpp.so\n'}
+[11.121863] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__functions.h\n'}
+[11.121984] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__type_support.h\n'}
+[11.122106] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[11.122241] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__functions.c\n'}
+[11.122334] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/pythonpath.sh\n'}
+[11.122448] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__struct.h\n'}
+[11.122602] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/pythonpath.dsv\n'}
+[11.122724] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/motor_speeds.h\n'}
+[11.122842] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info\n'}
+[11.123010] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info/PKG-INFO\n'}
+[11.123126] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/environment/library_path.sh\n'}
+[11.123254] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info/top_level.txt\n'}
+[11.123390] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/environment/library_path.dsv\n'}
+[11.123513] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info/SOURCES.txt\n'}
+[11.123727] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info/dependency_links.txt\n'}
+[11.123855] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_generator_c.so\n'}
+[11.124030] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg\n'}
+[11.124206] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/__init__.py\n'}
+[11.124323] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_generator_c.so" to ""\n'}
+[11.124459] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.124575] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg\n'}
+[11.124690] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg\n'}
+[11.124881] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail\n'}
+[11.124994] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.125162] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_c.h\n'}
+[11.125264] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.125361] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.125533] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/libdynamixel_controller_pkg__rosidl_generator_py.so\n'}
+[11.125662] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.125818] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg\n'}
+[11.125990] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/__init__.py\n'}
+[11.126115] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.126254] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg\n'}
+[11.126384] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/_motor_speeds.py\n'}
+[11.126518] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg\n'}
+[11.126628] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail\n'}
+[11.126719] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__traits.hpp\n'}
+[11.126852] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/_motor_speeds_s.c\n'}
+[11.126944] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__struct.hpp\n'}
+[11.127045] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[11.127180] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.127282] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__builder.hpp\n'}
+[11.127411] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.127503] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/motor_speeds.hpp\n'}
+[11.127622] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg\n'}
+[11.127732] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg\n'}
+[11.127855] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail\n'}
+[11.127943] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/dds_fastrtps\n'}
+[11.128053] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.128173] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.128425] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.128892] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.129012] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg\n'}
+[11.129126] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg\n'}
+[11.129255] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail\n'}
+[11.129346] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_introspection_c.h\n'}
+[11.129449] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__type_support.c\n'}
+[11.129634] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.129884] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_introspection_c.so\n'}
+[11.130282] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.130395] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_c.so\n'}
+[11.130801] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_c.so" to ""\n'}
+[11.130922] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg\n'}
+[11.131037] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg\n'}
+[11.131167] (remote_controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail\n'}
+[11.131257] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__type_support.cpp\n'}
+[11.131364] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/include/remote_controller_pkg/remote_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.131589] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.131981] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.132111] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_cpp.so\n'}
+[11.132490] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[11.132599] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/environment/pythonpath.sh\n'}
+[11.132812] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/environment/pythonpath.dsv\n'}
+[11.133022] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg-0.0.0-py3.8.egg-info\n'}
+[11.133209] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg-0.0.0-py3.8.egg-info/PKG-INFO\n'}
+[11.133421] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg-0.0.0-py3.8.egg-info/top_level.txt\n'}
+[11.133603] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg-0.0.0-py3.8.egg-info/SOURCES.txt\n'}
+[11.133787] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg-0.0.0-py3.8.egg-info/dependency_links.txt\n'}
+[11.134008] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg\n'}
+[11.134156] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.134384] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/__init__.py\n'}
+[11.134563] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.134786] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/_remote_controller_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.134986] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.135192] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/_remote_controller_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.135376] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/msg\n'}
+[11.135509] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/msg/__init__.py\n'}
+[11.135706] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/msg/_motor_speeds.py\n'}
+[11.135902] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/msg/_motor_speeds_s.c\n'}
+[11.136094] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/libremote_controller_pkg__rosidl_generator_py.so\n'}
+[11.136321] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/_remote_controller_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[11.148682] (-) TimerEvent: {}
+[11.175417] (dynamixel_controller_pkg) StdoutLine: {'line': b"Listing '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg'...\n"}
+[11.175680] (dynamixel_controller_pkg) StdoutLine: {'line': b"Compiling '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/__init__.py'...\n"}
+[11.175782] (dynamixel_controller_pkg) StdoutLine: {'line': b"Listing '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg'...\n"}
+[11.175870] (dynamixel_controller_pkg) StdoutLine: {'line': b"Compiling '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/__init__.py'...\n"}
+[11.175956] (dynamixel_controller_pkg) StdoutLine: {'line': b"Compiling '/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/_motor_speeds.py'...\n"}
+[11.184005] (remote_controller_pkg) StdoutLine: {'line': b"Listing '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg'...\n"}
+[11.184404] (remote_controller_pkg) StdoutLine: {'line': b"Compiling '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/__init__.py'...\n"}
+[11.184530] (remote_controller_pkg) StdoutLine: {'line': b"Listing '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/msg'...\n"}
+[11.184627] (remote_controller_pkg) StdoutLine: {'line': b"Compiling '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/msg/__init__.py'...\n"}
+[11.184748] (remote_controller_pkg) StdoutLine: {'line': b"Compiling '/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/msg/_motor_speeds.py'...\n"}
+[11.185236] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.185677] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.185948] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.186388] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.186713] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.187119] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.187263] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_generator_py.so\n'}
+[11.187667] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_generator_py.so" to ""\n'}
+[11.187887] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/msg/MotorSpeeds.idl\n'}
+[11.188087] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/msg/MotorSpeeds.msg\n'}
+[11.188383] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/ament_index/resource_index/package_run_dependencies/dynamixel_controller_pkg\n'}
+[11.188698] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/ament_index/resource_index/parent_prefix_path/dynamixel_controller_pkg\n'}
+[11.188973] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/ament_prefix_path.sh\n'}
+[11.189224] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/ament_prefix_path.dsv\n'}
+[11.189455] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/path.sh\n'}
+[11.189699] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/path.dsv\n'}
+[11.189922] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/local_setup.bash\n'}
+[11.190141] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/local_setup.sh\n'}
+[11.190379] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/local_setup.zsh\n'}
+[11.190656] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/local_setup.dsv\n'}
+[11.190872] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.dsv\n'}
+[11.191159] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/ament_index/resource_index/packages/dynamixel_controller_pkg\n'}
+[11.191475] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_cExport.cmake\n'}
+[11.191737] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.192004] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.192251] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.192508] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_cppExport.cmake\n'}
+[11.192804] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.193025] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.193325] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.193831] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.193966] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.194146] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_cExport.cmake\n'}
+[11.194280] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.194405] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.194530] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.194680] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.194809] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.195053] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[11.195176] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.195327] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.195476] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.195620] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_pyExport.cmake\n'}
+[11.195898] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.196017] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.196123] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_generator_py.so\n'}
+[11.196233] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.196470] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.196627] (remote_controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/work/Foreview_ws/src/install/remote_controller_pkg/lib/libremote_controller_pkg__rosidl_generator_py.so" to ""\n'}
+[11.196762] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.196886] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/msg/MotorSpeeds.idl\n'}
+[11.197020] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.197173] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/msg/MotorSpeeds.msg\n'}
+[11.197320] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.197596] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/ament_index/resource_index/package_run_dependencies/remote_controller_pkg\n'}
+[11.197708] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.197934] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.198050] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/ament_index/resource_index/parent_prefix_path/remote_controller_pkg\n'}
+[11.198238] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkgConfig.cmake\n'}
+[11.198356] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/environment/ament_prefix_path.sh\n'}
+[11.198486] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkgConfig-version.cmake\n'}
+[11.198704] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/environment/ament_prefix_path.dsv\n'}
+[11.198827] (dynamixel_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.xml\n'}
+[11.199008] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/environment/path.sh\n'}
+[11.199269] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/environment/path.dsv\n'}
+[11.199506] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/local_setup.bash\n'}
+[11.199732] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/local_setup.sh\n'}
+[11.199964] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/local_setup.zsh\n'}
+[11.200189] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/local_setup.dsv\n'}
+[11.200419] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.dsv\n'}
+[11.200733] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/ament_index/resource_index/packages/remote_controller_pkg\n'}
+[11.201068] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_generator_cExport.cmake\n'}
+[11.201330] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.201595] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.201838] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.202094] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_generator_cppExport.cmake\n'}
+[11.202363] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.202633] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.202890] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.203126] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.203400] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkg__rosidl_typesupport_cExport.cmake\n'}
+[11.203638] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.203893] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.204133] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.204402] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[11.204670] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.204926] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_generator_pyExport.cmake\n'}
+[11.205165] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/export_remote_controller_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.205392] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.205618] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.205856] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.206084] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.206326] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.206566] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.206801] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.207017] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkgConfig.cmake\n'}
+[11.207208] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/cmake/remote_controller_pkgConfig-version.cmake\n'}
+[11.207428] (remote_controller_pkg) StdoutLine: {'line': b'-- Installing: /home/orin/work/Foreview_ws/src/install/remote_controller_pkg/share/remote_controller_pkg/package.xml\n'}
+[11.209399] (dynamixel_controller_pkg) CommandEnded: {'returncode': 0}
+[11.253014] (-) TimerEvent: {}
+[11.276271] (remote_controller_pkg) CommandEnded: {'returncode': 0}
+[11.353204] (-) TimerEvent: {}
+[11.422661] (dynamixel_controller_pkg) JobEnded: {'identifier': 'dynamixel_controller_pkg', 'rc': 0}
+[11.453307] (-) TimerEvent: {}
+[11.467506] (remote_controller_pkg) JobEnded: {'identifier': 'remote_controller_pkg', 'rc': 0}
+[11.468759] (-) EventReactorShutdown: {}

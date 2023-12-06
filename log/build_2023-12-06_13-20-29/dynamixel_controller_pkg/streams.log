@@ -1,0 +1,266 @@
+[0.062s] Invoking command in '/home/orin/work/Foreview_ws/build/dynamixel_controller_pkg': /usr/local/bin/cmake /home/orin/work/Foreview_ws/src/dynamixel_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg
+[0.182s] -- The C compiler identification is GNU 9.4.0
+[0.273s] -- The CXX compiler identification is GNU 9.4.0
+[0.309s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.467s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.614s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.614s] -- Detecting CXX compile features
+[0.615s] -- Detecting CXX compile features - done
+[0.621s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[2.354s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[2.524s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)
+[2.600s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[2.613s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[2.633s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[2.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.922s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[4.037s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[6.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.293s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.302s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[7.302s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.303s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.303s]   the cmake_policy command to set the policy and suppress this warning.
+[7.303s] 
+[7.303s] Call Stack (most recent call first):
+[7.303s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.303s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.304s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[7.304s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.304s] [0m
+[7.338s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[7.342s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[7.344s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[7.344s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.344s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.344s]   the cmake_policy command to set the policy and suppress this warning.
+[7.344s] 
+[7.344s] Call Stack (most recent call first):
+[7.345s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[7.345s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.345s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.345s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[7.345s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.345s] [0m
+[7.379s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[7.379s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.380s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.380s]   the cmake_policy command to set the policy and suppress this warning.
+[7.380s] 
+[7.380s] Call Stack (most recent call first):
+[7.380s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[7.380s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.380s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.381s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[7.381s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.381s] [0m
+[7.395s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[7.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.395s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.395s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[7.430s] -- Found PythonExtra: .so  
+[7.729s] -- Using numpy include directory: /usr/local/lib/python3.8/dist-packages/numpy/core/include
+[7.748s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[7.795s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.799s] -- Added test 'lint_cmake' to check CMake code style
+[7.801s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.813s] -- Added test 'xmllint' to check XML markup files
+[7.819s] -- Configuring done (7.7s)
+[7.885s] -- Generating done (0.1s)
+[7.890s] -- Build files have been written to: /home/orin/work/Foreview_ws/build/dynamixel_controller_pkg
+[7.926s] Invoked command in '/home/orin/work/Foreview_ws/build/dynamixel_controller_pkg' returned '0': /usr/local/bin/cmake /home/orin/work/Foreview_ws/src/dynamixel_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg
+[7.930s] Invoking command in '/home/orin/work/Foreview_ws/build/dynamixel_controller_pkg': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/build/dynamixel_controller_pkg -- -j12 -l12
+[8.003s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.012s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.016s] [  6%] Built target ament_cmake_python_copy_dynamixel_controller_pkg
+[8.330s] [  6%] Built target dynamixel_controller_pkg__cpp
+[8.337s] [  9%] [32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_controller_pkg/msg/detail/motor_speeds__functions.c.o[0m
+[8.340s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.340s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.340s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.355s] running egg_info
+[8.357s] creating dynamixel_controller_pkg.egg-info
+[8.387s] writing dynamixel_controller_pkg.egg-info/PKG-INFO
+[8.388s] writing dependency_links to dynamixel_controller_pkg.egg-info/dependency_links.txt
+[8.388s] writing top-level names to dynamixel_controller_pkg.egg-info/top_level.txt
+[8.388s] writing manifest file 'dynamixel_controller_pkg.egg-info/SOURCES.txt'
+[8.421s] [ 22%] [32m[1mLinking C shared library libdynamixel_controller_pkg__rosidl_generator_c.so[0m
+[8.463s] [ 22%] Built target dynamixel_controller_pkg__rosidl_generator_c
+[8.476s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.478s] reading manifest file 'dynamixel_controller_pkg.egg-info/SOURCES.txt'
+[8.480s] writing manifest file 'dynamixel_controller_pkg.egg-info/SOURCES.txt'
+[8.484s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.486s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.576s] [ 32%] Built target ament_cmake_python_build_dynamixel_controller_pkg_egg
+[8.684s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_controller_pkg/msg/motor_speeds__type_support.cpp.o[0m
+[8.701s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_controller_pkg/msg/detail/dds_fastrtps/motor_speeds__type_support.cpp.o[0m
+[8.711s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.cpp.o[0m
+[8.865s] [ 45%] [32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_controller_pkg/msg/motor_speeds__type_support.cpp.o[0m
+[8.873s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support_c.cpp.o[0m
+[8.891s] [ 51%] [32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.c.o[0m
+[8.967s] [ 54%] [32m[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_c.so[0m
+[9.028s] [ 54%] Built target dynamixel_controller_pkg__rosidl_typesupport_c
+[9.035s] [ 58%] [32m[1mLinking C shared library libdynamixel_controller_pkg__rosidl_typesupport_introspection_c.so[0m
+[9.078s] [ 58%] Built target dynamixel_controller_pkg__rosidl_typesupport_introspection_c
+[9.407s] [ 61%] [32m[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_cpp.so[0m
+[9.452s] [ 61%] Built target dynamixel_controller_pkg__rosidl_typesupport_cpp
+[9.653s] [ 64%] [32m[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[9.667s] [ 67%] [32m[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[9.702s] [ 70%] [32m[1mLinking CXX shared library libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.712s] [ 70%] Built target dynamixel_controller_pkg__rosidl_typesupport_introspection_cpp
+[9.771s] [ 70%] Built target dynamixel_controller_pkg__rosidl_typesupport_fastrtps_c
+[9.809s] [ 70%] Built target dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp
+[9.824s] [ 70%] Built target dynamixel_controller_pkg
+[9.838s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.186s] [ 74%] Built target dynamixel_controller_pkg__py
+[10.201s] [ 77%] [32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_controller_pkg/msg/_motor_speeds_s.c.o[0m
+[10.368s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_controller_pkg/libdynamixel_controller_pkg__rosidl_generator_py.so[0m
+[10.416s] [ 80%] Built target dynamixel_controller_pkg__rosidl_generator_py
+[10.437s] [ 83%] [32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.438s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.438s] [ 90%] [32mBuilding C object CMakeFiles/dynamixel_controller_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[10.733s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[10.742s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[10.742s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[10.783s] [100%] Built target dynamixel_controller_pkg__rosidl_typesupport_fastrtps_c__pyext
+[10.793s] [100%] Built target dynamixel_controller_pkg__rosidl_typesupport_c__pyext
+[10.793s] [100%] Built target dynamixel_controller_pkg__rosidl_typesupport_introspection_c__pyext
+[10.813s] Invoked command in '/home/orin/work/Foreview_ws/build/dynamixel_controller_pkg' returned '0': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/build/dynamixel_controller_pkg -- -j12 -l12
+[10.966s] Invoking command in '/home/orin/work/Foreview_ws/build/dynamixel_controller_pkg': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/build/dynamixel_controller_pkg
+[11.009s] -- Install configuration: ""
+[11.010s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/ament_index/resource_index/rosidl_interfaces/dynamixel_controller_pkg
+[11.010s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg
+[11.010s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg
+[11.010s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/rosidl_generator_c__visibility_control.h
+[11.011s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail
+[11.011s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__functions.h
+[11.011s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.h
+[11.011s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__functions.c
+[11.011s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__struct.h
+[11.012s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/motor_speeds.h
+[11.012s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/library_path.sh
+[11.012s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/library_path.dsv
+[11.013s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_generator_c.so
+[11.013s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_generator_c.so" to ""
+[11.014s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg
+[11.014s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg
+[11.014s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail
+[11.014s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_c.h
+[11.014s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.014s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_c.so
+[11.015s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[11.015s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg
+[11.015s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg
+[11.015s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail
+[11.015s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__traits.hpp
+[11.016s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__struct.hpp
+[11.016s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__builder.hpp
+[11.016s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/motor_speeds.hpp
+[11.016s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg
+[11.016s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg
+[11.016s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail
+[11.016s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/dds_fastrtps
+[11.016s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_cpp.hpp
+[11.017s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.018s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp.so
+[11.018s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.018s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg
+[11.018s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg
+[11.018s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail
+[11.018s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_introspection_c.h
+[11.018s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.c
+[11.018s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.018s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_introspection_c.so
+[11.019s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_introspection_c.so" to ""
+[11.019s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_c.so
+[11.019s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_c.so" to ""
+[11.019s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg
+[11.020s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg
+[11.020s] -- Up-to-date: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail
+[11.020s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__type_support.cpp
+[11.020s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/include/dynamixel_controller_pkg/dynamixel_controller_pkg/msg/detail/motor_speeds__rosidl_typesupport_introspection_cpp.hpp
+[11.020s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_introspection_cpp.so
+[11.021s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[11.021s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_cpp.so
+[11.021s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_typesupport_cpp.so" to ""
+[11.021s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/pythonpath.sh
+[11.021s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/pythonpath.dsv
+[11.022s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info
+[11.022s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info/PKG-INFO
+[11.022s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info/top_level.txt
+[11.022s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info/SOURCES.txt
+[11.022s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg-0.0.0-py3.8.egg-info/dependency_links.txt
+[11.023s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg
+[11.023s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/__init__.py
+[11.023s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[11.023s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[11.023s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[11.024s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/libdynamixel_controller_pkg__rosidl_generator_py.so
+[11.024s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg
+[11.024s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/__init__.py
+[11.024s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/_motor_speeds.py
+[11.024s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/_motor_speeds_s.c
+[11.024s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_c.c
+[11.025s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.025s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/_dynamixel_controller_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[11.073s] Listing '/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg'...
+[11.073s] Compiling '/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/__init__.py'...
+[11.073s] Listing '/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg'...
+[11.073s] Compiling '/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/__init__.py'...
+[11.073s] Compiling '/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/msg/_motor_speeds.py'...
+[11.083s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[11.083s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[11.084s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[11.084s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[11.084s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[11.085s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/python3.8/site-packages/dynamixel_controller_pkg/dynamixel_controller_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[11.085s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_generator_py.so
+[11.086s] -- Set runtime path of "/home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/lib/libdynamixel_controller_pkg__rosidl_generator_py.so" to ""
+[11.086s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/msg/MotorSpeeds.idl
+[11.086s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/msg/MotorSpeeds.msg
+[11.086s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/ament_index/resource_index/package_run_dependencies/dynamixel_controller_pkg
+[11.087s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/ament_index/resource_index/parent_prefix_path/dynamixel_controller_pkg
+[11.087s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/ament_prefix_path.sh
+[11.087s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/ament_prefix_path.dsv
+[11.087s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/path.sh
+[11.088s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/environment/path.dsv
+[11.088s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/local_setup.bash
+[11.088s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/local_setup.sh
+[11.088s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/local_setup.zsh
+[11.089s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/local_setup.dsv
+[11.089s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.dsv
+[11.089s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/ament_index/resource_index/packages/dynamixel_controller_pkg
+[11.090s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_cExport.cmake
+[11.090s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_cExport-noconfig.cmake
+[11.090s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[11.090s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.091s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_cppExport.cmake
+[11.091s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.091s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.091s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_introspection_cExport.cmake
+[11.092s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.092s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_cExport.cmake
+[11.092s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[11.093s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[11.093s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.093s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_cppExport.cmake
+[11.093s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[11.094s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_pyExport.cmake
+[11.094s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/export_dynamixel_controller_pkg__rosidl_generator_pyExport-noconfig.cmake
+[11.095s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/rosidl_cmake-extras.cmake
+[11.098s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.098s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.098s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[11.100s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[11.100s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.101s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.101s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkgConfig.cmake
+[11.103s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/cmake/dynamixel_controller_pkgConfig-version.cmake
+[11.103s] -- Installing: /home/orin/work/Foreview_ws/install/dynamixel_controller_pkg/share/dynamixel_controller_pkg/package.xml
+[11.174s] Invoked command in '/home/orin/work/Foreview_ws/build/dynamixel_controller_pkg' returned '0': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/build/dynamixel_controller_pkg
